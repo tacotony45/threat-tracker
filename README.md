@@ -1,16 +1,29 @@
 # Threat Tracker
 
-Threat Tracker is a simple Flask-based web application that allows users to upload server log files, parses critical information like IP addresses, timestamps, and status codes, and displays the parsed logs for easy analysis.
+**Threat Tracker** is a Flask-based web application designed to help security teams and system administrators efficiently analyze server log files. It parses and extracts key information such as IP addresses, timestamps, and HTTP status codes, enabling quick identification of suspicious activity.
 
-## Features
+---
 
-- Upload and parse server log files (e.g., Apache logs)  
-- Extract IP addresses, timestamps, and HTTP status codes  
-- Store parsed logs in a SQLite database  
-- View parsed logs in a clean, tabular web interface  
-- Built with Python, Flask, and SQLAlchemy  
+## Key Features
 
-## Installation
+- **Log Upload & Parsing:** Easily upload raw server logs and extract relevant security data.  
+- **Data Storage:** Utilizes SQLite with SQLAlchemy ORM for efficient, scalable log management.  
+- **Interactive Web Interface:** Clean, user-friendly pages to view and analyze parsed logs in tabular form.  
+- **Built with Modern Tools:** Developed using Python 3, Flask, and SQLAlchemy for backend robustness and maintainability.  
+
+---
+
+## Technical Skills Demonstrated
+
+- Backend web development with Python and Flask  
+- Database modeling and integration using SQLAlchemy and SQLite  
+- File handling and data parsing with regular expressions  
+- Frontend templating with Jinja2 for dynamic HTML rendering  
+- Version control with Git and GitHub  
+
+---
+
+## Installation & Setup
 
 1. Clone the repository:  
    ```bash
